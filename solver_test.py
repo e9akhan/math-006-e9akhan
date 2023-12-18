@@ -2,4 +2,4 @@ import solver
 
 
 def test_solver():
-    assert solver.solver(start=15812, end=91581312, even=False, odd=True) == 82775742
+    assert solver.solver(start=1, end=10) == 2640.0

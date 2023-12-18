@@ -1,9 +1,9 @@
 """
     Module Name :- solver
-    Method(s) :- solver
+    Method(s) :- solver(start, end)
 """
 
-def solver(start, end, even=False, odd=False):
+def solver(start, end):
     """
         Find the sum of square of numbers and square of sum of numbers
         over a range

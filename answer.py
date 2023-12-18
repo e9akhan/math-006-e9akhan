@@ -1,6 +1,6 @@
 """
     Module Name :- answer
-    Method(s) :- answer
+    Method(s) :- answer()
 """
 
 from solver import solver
