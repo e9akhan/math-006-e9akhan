@@ -16,6 +16,9 @@ def solver(start, end):
             Absolute difference of sum of square of numbers and square of sum of
             numbers.
     """
+    if start > end:
+        return -1
+
     squares_sum = 0
 
     for i in range(start, end+1):
@@ -24,7 +27,7 @@ def solver(start, end):
     sums_square = ((end*(end+1)/2)-(start*(start-1)/2))**2
 
     diff = sums_square - squares_sum
-    return abs(diff)
+    return int(abs(diff))
 
 if __name__ == '__main__':
     print(f'solver(1, 10) = {solver(1, 10)}')
